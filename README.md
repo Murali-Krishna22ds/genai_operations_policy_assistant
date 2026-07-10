@@ -17,9 +17,9 @@ citations, and writes every query to a compliance audit log.
 
 ```
 operations_policies.json ──► ingestion.py ──► embeddings.py ──► FAISS vector store
-                                                                        │
-support_tickets/orders/returns/customers.csv ──► case_context.py        │
-                                     │                                  │
+                                                                       │
+support_tickets/orders/returns/customers.csv ──► case_context.py       │
+                                     │                                 │
                                      ▼                                 ▼
                             routers/query.py ──► retrieval.py (metadata-filtered top-k)
                                      │                                  │
