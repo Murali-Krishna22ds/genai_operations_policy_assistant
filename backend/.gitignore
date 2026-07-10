@@ -1,0 +1,4 @@
+.env
+app/index_store/
+__pycache__/
+*.pyc

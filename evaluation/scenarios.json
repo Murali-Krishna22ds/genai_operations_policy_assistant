@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_id": "S01",
+    "type": "in_scope",
+    "query": "Can a customer receive a refund for damaged in transit after 60 days?",
+    "expected_department": "returns",
+    "expected_policy_id": "Q00411",
+    "gold_answer": "For damaged in transit, agents must verify order GENAI_-00411 within 60 days and apply SOP walkthrough. Escalate to Operations Excellence if value exceeds $25. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00411 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S02",
+    "type": "in_scope",
+    "query": "What exception path applies to damaged in transit during peak season summer sale?",
+    "expected_department": "returns",
+    "expected_policy_id": "Q00191",
+    "gold_answer": "Policy GENAI_-00191 states damaged in transit follows a 7-day window with SOP walkthrough as default. Supervisor approval is required for tier silver exceptions. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00191 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S03",
+    "type": "in_scope",
+    "query": "When does gift returns require supervisor approval in region WA?",
+    "expected_department": "returns",
+    "expected_policy_id": "Q00506",
+    "gold_answer": "Policy GENAI_-00506 states gift returns follows a 45-day window with SOP walkthrough as default. Supervisor approval is required for tier silver exceptions. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00506 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S04",
+    "type": "in_scope",
+    "query": "What exception path applies to damaged in transit during peak season holiday rush?",
+    "expected_department": "returns",
+    "expected_policy_id": "Q00831",
+    "gold_answer": "For damaged in transit, agents must verify order GENAI_-00831 within 90 days and apply SOP walkthrough. Escalate to Operations Excellence if value exceeds $50. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00831 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S05",
+    "type": "in_scope",
+    "query": "How does store credit interact with promotion code PROMO599 on order GENAI_-00062?",
+    "expected_department": "refunds",
+    "expected_policy_id": "Q00062",
+    "gold_answer": "Deny store credit when fraud score exceeds 70. Document reason code GENAI_-00062 and offer exception approval if eligible. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00062 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S06",
+    "type": "in_scope",
+    "query": "Can refund to new card be expedited for loyalty member tier gold?",
+    "expected_department": "refunds",
+    "expected_policy_id": "Q00092",
+    "gold_answer": "Deny refund to new card when fraud score exceeds 40. Document reason code GENAI_-00092 and offer SOP walkthrough if eligible. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00092 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S07",
+    "type": "in_scope",
+    "query": "Who approves promotional discount clawback above $1000 during summer sale?",
+    "expected_department": "refunds",
+    "expected_policy_id": "Q00687",
+    "gold_answer": "promotional discount clawback completes in 60 business days for order GENAI_-00687. Auto-approve up to $1000; beyond that route to Policy Office. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00687 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S08",
+    "type": "in_scope",
+    "query": "What criteria move case GENAI_-00123 from tier-1 to executive response?",
+    "expected_department": "escalation",
+    "expected_policy_id": "Q00123",
+    "gold_answer": "Trigger executive response when severity is high or customer tier is gold. Assign to Compliance within 48 hours and reference case GENAI_-00123. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00123 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S09",
+    "type": "in_scope",
+    "query": "How is safety incident escalation documented in the audit log for agent desktop?",
+    "expected_department": "escalation",
+    "expected_policy_id": "Q00468",
+    "gold_answer": "Trigger safety incident escalation when severity is high or customer tier is standard. Assign to Operations Excellence within 48 hours and reference case GENAI_-00468. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00468 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S10",
+    "type": "in_scope",
+    "query": "How is safety incident escalation documented in the audit log for agent desktop?",
+    "expected_department": "escalation",
+    "expected_policy_id": "Q00748",
+    "gold_answer": "safety incident escalation SLA is 12 hours for initial response. Log escalation reason and notify Compliance via the command center queue. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00748 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S11",
+    "type": "in_scope",
+    "query": "When is reshipment authorized for delivery reroute in AS?",
+    "expected_department": "shipping",
+    "expected_policy_id": "Q00074",
+    "gold_answer": "Communicate updated ETA within 2 hours. Tier standard customers may receive shipping fee refund per policy GENAI_-00074. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00074 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S12",
+    "type": "in_scope",
+    "query": "How should agents resolve freight damage for order GENAI_-00649 shipped via UPS?",
+    "expected_department": "shipping",
+    "expected_policy_id": "Q00649",
+    "gold_answer": "Authorize reshipment for freight damage when inventory allows and value is under $500. Escalate to Compliance otherwise. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00649 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S13",
+    "type": "in_scope",
+    "query": "When is reshipment authorized for delivery reroute in UT?",
+    "expected_department": "shipping",
+    "expected_policy_id": "Q00274",
+    "gold_answer": "Authorize reshipment for delivery reroute when inventory allows and value is under $50. Escalate to Compliance otherwise. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00274 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S14",
+    "type": "in_scope",
+    "query": "Which Policy Office approves exceptions to vendor DPA requirements for enterprise client standard?",
+    "expected_department": "compliance",
+    "expected_policy_id": "Q00050",
+    "gold_answer": "Notify affected customers within 8 hours for incident GENAI_-00050. Document root cause and remediation owner in the compliance register. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00050 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S15",
+    "type": "in_scope",
+    "query": "What evidence must be stored for whistleblower intake audit case GENAI_-00115?",
+    "expected_department": "compliance",
+    "expected_policy_id": "Q00115",
+    "gold_answer": "Process whistleblower intake within 60 business days. Assign to Compliance and attach verification artifact for case GENAI_-00115. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00115 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S16",
+    "type": "in_scope",
+    "query": "What retention period applies to AI decision transparency under regulation set GENAI_-00560?",
+    "expected_department": "compliance",
+    "expected_policy_id": "Q00560",
+    "gold_answer": "Notify affected customers within 8 hours for incident GENAI_-00560. Document root cause and remediation owner in the compliance register. Context (genai_oper_BCF30A01): operations policy assistant program reference GENAI_-00560 in genai-operations-policy-assistant."
+  },
+  {
+    "scenario_id": "S17",
+    "type": "out_of_scope",
+    "query": "What is the current federal minimum wage in California?",
+    "expected_department": null,
+    "expected_policy_id": null,
+    "gold_answer": null
+  },
+  {
+    "scenario_id": "S18",
+    "type": "out_of_scope",
+    "query": "Can you recommend a good project management tool for our team?",
+    "expected_department": null,
+    "expected_policy_id": null,
+    "gold_answer": null
+  },
+  {
+    "scenario_id": "S19",
+    "type": "out_of_scope",
+    "query": "What's the weather forecast for our warehouse city tomorrow?",
+    "expected_department": null,
+    "expected_policy_id": null,
+    "gold_answer": null
+  },
+  {
+    "scenario_id": "S20",
+    "type": "out_of_scope",
+    "query": "How do I reset my personal home Wi-Fi router?",
+    "expected_department": null,
+    "expected_policy_id": null,
+    "gold_answer": null
+  }
+]
