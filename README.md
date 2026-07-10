@@ -1,4 +1,4 @@
-# GenAI Operations & Policy Assistant
+# 🤖GenAI Operations & Policy Assistant
 
 A retrieval-augmented generation (RAG) pipeline that grounds operations/compliance
 policy Q&A in `operations_policies.json`, personalizes guidance with live case
